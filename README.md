@@ -75,6 +75,11 @@ $ docker run --name database -p 5432:5432 -d -t kartoza/postgis
 $ docker ps
 ```
 
+# Banco de Dados - para executar o Docker (Database)
+```sh
+$ docker start database
+```
+
 - Após isso, criar uma database no Postgres.
 
 * Sugestão de ferramenta: POSTICO
