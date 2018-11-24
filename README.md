@@ -111,6 +111,45 @@ $ yarn add bcryptjs
 $ yarn add multer
 `````
 
+#Sessão do Usuário
+2 - Instalar dependência da Sessão do Usuário
+
+```sh
+$ yarn add express-session
+```
+
+# Salvar a sessão do usuário em um arquivo
+
+2 - Instalar dependência da Sessão do Usuário
+
+```sh
+$ yarn add session-file-store
+```
+
+# Instalando as mensagens (Flash)
+
+```sh
+$ yarn add connect-flash
+```
+
+# Criando a Migration de Appointments
+
+```sh
+$ npx sequelize migration:create --name=create-appointments
+```
+
+#Executando a migração de dados
+
+```sh
+$ npx sequelize db:migrate
+```
+
+# Adicionando a biblioteca para trabahar com Data e Hora - MomentJS
+
+```sh
+$ yarn add moment
+```
+
 ---
 
 …or create a new repository on the command line
