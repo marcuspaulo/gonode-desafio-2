@@ -44,9 +44,11 @@ class AvailableController {
         value: value.format(),
         available:
           value.isAfter(moment()) &&
-          !appointments.find(a => moment(a.date).format)
+          !appointments.find(a => moment(a.date).format('HH:mm') === time)
       }
     })
+
+    console.log(available)
 
     return res.render('available/index', { available })
   }
