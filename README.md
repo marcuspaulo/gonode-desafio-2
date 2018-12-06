@@ -2,7 +2,21 @@
 
 Desafio do Bootcamp GoNode - Rocketseat
 
-![Feed](/imagens/login.png)
+#Tela de Login
+![Tela de Login](/imagens/login.png)
+
+#Tela de Cadastro
+![Tela de Cadastro](/imagens/signup.png)
+
+#Dashboard
+![Dashboard](/imagens/dashboard.png)
+
+#Agendamento de Horários
+![Agendamento de Horários](/imagens/appointments-new.png)
+
+#Agendamento de Horários - Agendado
+![Agendado](/imagens/appointments-new2.png)
+
 
 # Configurando Sequelize
 
